@@ -18,7 +18,7 @@ const markupGallery = createGaleryCardMarkup(galleryItems);
 galleryContainer.insertAdjacentHTML('beforeend', markupGallery);
 
 
-galleryContainer.addEventListener('click', onGalleryContainerClick);
+// galleryContainer.addEventListener('click', onGalleryContainerClick);
 
 const lightbox = new SimpleLightbox('.gallery a', {
   captionType: 'attr',
@@ -41,9 +41,9 @@ function createGaleryCardMarkup(galleryItems) {
     .join('');
 }
 
-function onGalleryContainerClick(evt) {
-  evt.preventDefault();
-  const isGalleryImageEl = evt.target.classList.contains('gallery__image');
+// function onGalleryContainerClick(evt) {
+  // evt.preventDefault();
+  // const isGalleryImageEl = evt.target.classList.contains('gallery__image');
   
-}
+// }
 
