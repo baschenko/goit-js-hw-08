@@ -44,8 +44,6 @@ function createGaleryCardMarkup(galleryItems) {
 function onGalleryContainerClick(evt) {
   evt.preventDefault();
   const isGalleryImageEl = evt.target.classList.contains('gallery__image');
-  if (!isGalleryImageEl) {
-    return;
-  }
+  
 }
 
